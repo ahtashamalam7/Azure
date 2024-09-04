@@ -63,7 +63,7 @@ resource "azurerm_linux_virtual_machine" "demo-vm" {
   location            = azurerm_resource_group.demo-rg.location
   resource_group_name = azurerm_resource_group.demo-rg.name
   network_interface_ids = [azurerm_network_interface.demo-nic.id]
-  size                = "Standard_DS1_v2"
+  size                = "Standard_D4s_v3"
 
   admin_username      = "adminuser"
   admin_password      = "P@ssw0rd1234!" # Replace with your own password
