@@ -65,8 +65,8 @@ resource "azurerm_linux_virtual_machine" "demo-vm" {
   network_interface_ids = [azurerm_network_interface.demo-nic.id]
   size                = "Standard_D4s_v3"
 
-  admin_username      = "adminuser"
-  admin_password      = "P@ssw0rd1234!" # Replace with your own password
+  admin_username      = "alam"
+  admin_password      = "pass123" # Replace with your own password
 
   os_disk {
     caching              = "ReadWrite"
