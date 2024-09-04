@@ -66,7 +66,7 @@ resource "azurerm_linux_virtual_machine" "demo-vm" {
   size                = "Standard_D4s_v3"
 
   admin_username      = "alam"
-  admin_password      = "pass123" # Replace with your own password
+  admin_password      = "Ahtashamalam@123" # Replace with your own password
 
   os_disk {
     caching              = "ReadWrite"
